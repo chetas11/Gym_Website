@@ -1,0 +1,44 @@
+body {
+  background-color: #a6a6a4;
+}
+
+h1 {
+  display: inline;
+}
+
+span {
+  margin-left: 70%;
+}
+
+h2 {
+  font-family: "Spirax", cursive;
+  margin-top: 170px;
+  font-weight: bolder;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.top-div {
+  background-color: #686d76;
+  padding: 20px;
+  color: whitesmoke;
+  font-family: "Lobster", cursive;
+}
+
+.horizontal-line {
+  border: 1px solid;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  background-color: black;
+  color: whitesmoke;
+}
