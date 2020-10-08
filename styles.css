@@ -16,9 +16,38 @@ a {
 }
 
 i {
-  font-size: 21rem;
-  margin-top: 3%;
-  border-bottom: 2px solid whitesmoke;
+  margin-right: 10%;
+}
+
+footer {
+  background-color: #686d76;
+  padding: 1%;
+}
+
+footer p {
+  position: absolute;
+  right: 10%;
+}
+
+#Contact p {
+  margin: 0%;
+  margin-left: 60%;
+}
+
+#Contact h1,
+h2 {
+  color: black;
+  font-family: "Lobster", cursive;
+  margin-bottom: 10%;
+}
+
+.waiting-icon {
+  height: 300px;
+  margin-left: 100px;
+}
+
+.card a {
+  color: #145374;
 }
 
 .img-container {
@@ -44,8 +73,8 @@ i {
 }
 
 .card {
-  background-color: rgb(160, 125, 125);
-  color: whitesmoke;
+  background-color: #dddddd;
+  color: black;
   margin: 5%;
 }
 
