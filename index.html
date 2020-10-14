@@ -25,7 +25,7 @@
   </head>
   <body>
     <div class="container-fluid top-div">
-      <h1>Power-House</h1>
+      <h1><i class="fab fa-superpowers"></i>Power-House</h1>
       <span></span>
       <a href="#Membership">Membership</a> &nbsp;
       <a href="#Contact">Contact us</a>
@@ -45,20 +45,36 @@
       </div>
     </div>
 
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Enter your email and get a confirmation</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <input type="email" placeholder="Enter your Email" name="email" class="form-control" id="">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Subscribe</button>
+      </div>
+    </div>
+  </div>
+</div>
+
     <hr class="horizontal-line" />
 
     <div class="row" id="Membership">
       <div class="col-lg-4 col-md-4 col-sm-6">
         <div class="card">
-          <img
-            src="./images/beginner.png"
-            style="height: 380px"
-            class="card-img-top"
-            alt="..."
-          />
+          <h5 class="card-header text-center">Beginner $100/month</h5>
+
 
           <div class="card-body">
-            <h5 class="card-title">Beginner $100/month</h5>
+                    <img src="./images/beginner.png" style="height: 380px" class="card-img-top" alt="..." />
             <p class="card-text">
               We will teach you all from basic with the help of
               <strong>Personal Trainer</strong>
@@ -68,19 +84,16 @@
                 <em>Its a Complete Package if your confused choose this.</em></a
               >
             </p>
+            <button class="btn btn-secondary" type="button" data-toggle="modal" data-target="#exampleModal">Add to Cart</button>
           </div>
         </div>
       </div>
       <div class="col-lg-4 col-md-4 col-sm-6">
         <div class="card">
-          <img
-            src="./images/lean.png"
-            style="height: 405px"
-            class="card-img-top"
-            alt="..."
-          />
+          <h5 class="card-header text-center">Intermediate $75/montth</h5>
           <div class="card-body">
-            <h5 class="card-title">Intermediate $75/montth</h5>
+                      <img src="./images/lean.png" style="height: 405px" class="card-img-top" alt="..." />
+            
             <p class="card-text">
               <strong>Common Trainer</strong> will assist you in all the
               excercises also guide you about diet
@@ -90,11 +103,13 @@
                 ></a
               >
             </p>
+            <button class="btn btn-secondary" type="button" data-toggle="modal" data-target="#exampleModal">Add to Cart</button>
           </div>
         </div>
       </div>
       <div class="col-lg-4 col-md-4 col-sm-6">
         <div class="card">
+          <h5 class="card-header text-center">Professional $55/month</h5>
           <img
             src="./images/bulk.png"
             style="height: 380px"
@@ -102,16 +117,17 @@
             alt="..."
           />
           <div class="card-body">
-            <h5 class="card-title">Professional $55/month</h5>
+            
             <p class="card-text">
               <strong> No Trainer</strong> you are free to do all the exercises
-              as per your choice but it should be done in correct way.
+              as per your choice but make sure you do in proper way
               <a href="">
                 <em
                   >Choose this if you have an experience gymming for more than 2
                   years</em
                 ></a
               >
+              <button class="btn btn-secondary" type="button" data-toggle="modal" data-target="#exampleModal">Add to Cart</button>
             </p>
           </div>
         </div>
@@ -142,9 +158,8 @@
     </div>
 
     <hr class="horizontal-line" />
-    <footer>
       <div class="row">
-        <div class="col-lg-4 col-md-4 col-sm-6">
+        <div class="col-lg-4 col-md-4 col-sm-6 center">
           <a class="ml-3" href="./index.html">https://www.powerhouse.in</a>
         </div>
         <div class="col-lg-4 col-md-4 col-sm-65 center">
@@ -152,11 +167,10 @@
           <i class="fab fa-2x fa-facebook"></i>
           <i class="far fa-2x fa-envelope"></i>
         </div>
-        <div class="col-lg-4 col-md-4 col-sm-6">
+        <div class="col-lg-4 col-md-4 col-sm-6 center">
           <p><em>Call us on 9999 9999 99999</em></p>
         </div>
       </div>
-    </footer>
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

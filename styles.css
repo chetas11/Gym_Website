@@ -1,5 +1,6 @@
 body {
-  background-color: #a6a6a4;
+  background-color: #f7f2e7;
+  color: #4b5d67;
 }
 
 h1 {
@@ -22,6 +23,7 @@ i {
 footer {
   background-color: #686d76;
   padding: 1%;
+  color: #222831;
 }
 
 footer p {
@@ -36,7 +38,7 @@ footer p {
 
 #Contact h1,
 h2 {
-  color: black;
+  color: #4f8a8b;
   font-family: "Lobster", cursive;
   margin-bottom: 10%;
 }
@@ -56,10 +58,14 @@ h2 {
 }
 
 .top-div {
-  background-color: #686d76;
+  background-color: #eeeeee;
   padding: 20px;
-  color: whitesmoke;
+  color: #4f8a8b;
   font-family: "Lobster", cursive;
+}
+
+.top-div i {
+  margin: 0%;
 }
 
 .horizontal-line {
@@ -76,6 +82,21 @@ h2 {
   background-color: #dddddd;
   color: black;
   margin: 5%;
+  position: relative;
+}
+
+.card-header {
+  color: #4f8a8b;
+}
+
+.card-body .btn {
+  position: absolute;
+  right: 1%;
+  bottom: 0.5%;
+}
+
+.card-body {
+  padding-bottom: 40px;
 }
 
 .img-container img {
@@ -122,4 +143,10 @@ h2 {
 
 .fade-right:hover::after {
   opacity: 0.9;
+}
+
+@media screen and (min-width: 768px) {
+  footer.col {
+    width: 100%;
+  }
 }
